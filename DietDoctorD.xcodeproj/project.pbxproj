@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9520818521BF6C6D00593CC7 /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520818421BF6C6D00593CC7 /* LaunchController.swift */; };
 		95CC343B21BD177700908F00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC343A21BD177700908F00 /* AppDelegate.swift */; };
 		95CC343D21BD177700908F00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC343C21BD177700908F00 /* ViewController.swift */; };
 		95CC344021BD177700908F00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CC343E21BD177700908F00 /* Main.storyboard */; };
 		95CC344321BD177700908F00 /* DietDoctorD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95CC344121BD177700908F00 /* DietDoctorD.xcdatamodeld */; };
 		95CC344521BD177700908F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CC344421BD177700908F00 /* Assets.xcassets */; };
 		95CC344821BD177700908F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CC344621BD177700908F00 /* LaunchScreen.storyboard */; };
+		95CC345021BD1AFD00908F00 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC344F21BD1AFD00908F00 /* GoalViewController.swift */; };
+		95CC345221BD1B0900908F00 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC345121BD1B0900908F00 /* MealViewController.swift */; };
+		95CC345421BD1B2600908F00 /* MotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC345321BD1B2600908F00 /* MotionViewController.swift */; };
+		95CC347721BD1B4600908F00 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC347621BD1B4600908F00 /* SleepViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9520818421BF6C6D00593CC7 /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
+		9520818621BF71D500593CC7 /* cardiogram_heart_working_300_clr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cardiogram_heart_working_300_clr.gif; sourceTree = "<group>"; };
 		95CC343721BD177700908F00 /* DietDoctorD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietDoctorD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CC343A21BD177700908F00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95CC343C21BD177700908F00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,10 @@
 		95CC344421BD177700908F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95CC344721BD177700908F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95CC344921BD177700908F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CC344F21BD1AFD00908F00 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		95CC345121BD1B0900908F00 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		95CC345321BD1B2600908F00 /* MotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionViewController.swift; sourceTree = "<group>"; };
+		95CC347621BD1B4600908F00 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +70,14 @@
 				95CC343A21BD177700908F00 /* AppDelegate.swift */,
 				95CC343C21BD177700908F00 /* ViewController.swift */,
 				95CC343E21BD177700908F00 /* Main.storyboard */,
+				95CC344F21BD1AFD00908F00 /* GoalViewController.swift */,
+				95CC345121BD1B0900908F00 /* MealViewController.swift */,
+				95CC345321BD1B2600908F00 /* MotionViewController.swift */,
+				95CC347621BD1B4600908F00 /* SleepViewController.swift */,
+				9520818621BF71D500593CC7 /* cardiogram_heart_working_300_clr.gif */,
 				95CC344421BD177700908F00 /* Assets.xcassets */,
 				95CC344621BD177700908F00 /* LaunchScreen.storyboard */,
+				9520818421BF6C6D00593CC7 /* LaunchController.swift */,
 				95CC344921BD177700908F00 /* Info.plist */,
 				95CC344121BD177700908F00 /* DietDoctorD.xcdatamodeld */,
 			);
@@ -139,7 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9520818521BF6C6D00593CC7 /* LaunchController.swift in Sources */,
 				95CC343D21BD177700908F00 /* ViewController.swift in Sources */,
+				95CC345221BD1B0900908F00 /* MealViewController.swift in Sources */,
+				95CC347721BD1B4600908F00 /* SleepViewController.swift in Sources */,
+				95CC345421BD1B2600908F00 /* MotionViewController.swift in Sources */,
+				95CC345021BD1AFD00908F00 /* GoalViewController.swift in Sources */,
 				95CC344321BD177700908F00 /* DietDoctorD.xcdatamodeld in Sources */,
 				95CC343B21BD177700908F00 /* AppDelegate.swift in Sources */,
 			);

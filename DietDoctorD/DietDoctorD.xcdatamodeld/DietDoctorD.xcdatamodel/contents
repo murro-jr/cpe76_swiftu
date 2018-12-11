@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Activity" representedClassName="Activity" syncable="YES" codeGenerationType="class">
+        <attribute name="activityID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="activityType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Locomotion" representedClassName="Locomotion" syncable="YES" codeGenerationType="class">
+        <attribute name="activityID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kilometer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="motionType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Meal" representedClassName="Meal" syncable="YES" codeGenerationType="class">
+        <attribute name="activityID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calories" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealTypeIndex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameOfMeal" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Rest" representedClassName="Rest" syncable="YES" codeGenerationType="class">
+        <attribute name="activityID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sleepHours" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="currentWeight" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gainOrLoss" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDatetime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weightGoal" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Activity" positionX="0" positionY="45" width="128" height="75"/>
+        <element name="Locomotion" positionX="54" positionY="99" width="128" height="105"/>
+        <element name="Meal" positionX="9" positionY="54" width="128" height="120"/>
+        <element name="Rest" positionX="27" positionY="72" width="128" height="75"/>
+        <element name="User" positionX="-36" positionY="9" width="128" height="105"/>
+    </elements>
 </model>
